@@ -77,7 +77,6 @@
     [X,T] = meshgrid(x,t);
  
     fig=figure();
-
     set(fig, 'Position',  [100 206 1100 420])
        
     for i = 1:length(t)
@@ -103,3 +102,4 @@
         hold off
         pause(0)
     end
+    title("dt = " + dt)
